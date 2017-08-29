@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-Wall $/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS= -I.\/include -I\/usr\/include\/fastdfs\/ -I\/usr\/include\/fastcommon\/$/;"	m
+FDFS_CLIENT_CONF	include/fdfs_api.h	5;"	d
+FILE_ID_LEN	include/fdfs_api.h	4;"	d
+LIBS	Makefile	/^LIBS= -lfdfsclient -lfastcommon$/;"	m
+LOG	include/make_log.h	10;"	d
+LOG	include/make_log.h	15;"	d
+LOG_MODULE	main.c	10;"	d	file:
+LOG_MOUDLE	fdfs_api.c	12;"	d	file:
+LOG_PROC	fdfs_api.c	13;"	d	file:
+LOG_PROC	main.c	11;"	d	file:
+_MAKE_LOG_H	include/make_log.h	2;"	d
+__FDFS_API_H__	include/fdfs_api.h	2;"	d
+ca_log_lock	make_log.c	/^pthread_mutex_t ca_log_lock=PTHREAD_MUTEX_INITIALIZER;$/;"	v
+dumpmsg_to_file	include/make_log.h	/^int dumpmsg_to_file(char *module_name, char *proc_name, const char *filename,$/;"	p	signature:(char *module_name, char *proc_name, const char *filename, int line, const char *funcname, char *fmt, ...)
+dumpmsg_to_file	make_log.c	/^int dumpmsg_to_file(char *module_name, char *proc_name, const char *filename,$/;"	f	signature:(char *module_name, char *proc_name, const char *filename, int line, const char *funcname, char *fmt, ...)
+fdfs_upload_by_filename	fdfs_api.c	/^int fdfs_upload_by_filename(char *filename, char * fileid)$/;"	f	signature:(char *filename, char * fileid)
+fdfs_upload_by_filename	include/fdfs_api.h	/^int fdfs_upload_by_filename(char *filename, char * fileid);$/;"	p	signature:(char *filename, char * fileid)
+fdfs_upload_by_filename1	fdfs_api.c	/^int fdfs_upload_by_filename1(char *filename, char * fileid)$/;"	f	signature:(char *filename, char * fileid)
+fdfs_upload_by_filename1	include/fdfs_api.h	/^int fdfs_upload_by_filename1(char *filename, char * fileid);$/;"	p	signature:(char *filename, char * fileid)
+main	Makefile	/^main=.\/test_main$/;"	m
+main	demo_cgi.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	test/fdfs_upload_file.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+make_path	include/make_log.h	/^int make_path(char *path, char *module_name, char *proc_name);$/;"	p	signature:(char *path, char *module_name, char *proc_name)
+make_path	make_log.c	/^int make_path(char *path, char *module_name, char *proc_name)$/;"	f	signature:(char *path, char *module_name, char *proc_name)
+out_put_file	include/make_log.h	/^int out_put_file(char *path, char *buf);$/;"	p	signature:(char *path, char *buf)
+out_put_file	make_log.c	/^int out_put_file(char *path, char *buf)$/;"	f	signature:(char *path, char *buf)
+target	Makefile	/^target=$(main) $/;"	m
+usage	test/fdfs_upload_file.c	/^static void usage(char *argv[])$/;"	f	file:	signature:(char *argv[])
